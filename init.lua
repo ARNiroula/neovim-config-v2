@@ -1,6 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("nvim-treesitter.install").compilers = { "gcc", "clang" }
+-- require("nvim-treesitter.install").compilers = { "gcc", "clang" }  -- Deprecated method
 
 -- Modify The Python-LSP-Server Schema
 require("lspconfig").pylsp.setup({
